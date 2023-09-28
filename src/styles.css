@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: rgb(253,238,227);
+    background: linear-gradient(106deg, rgba(253,238,227,1) 17%, rgba(232,255,255,1) 54%, rgba(205,150,182,0.888126959247649) 79%);
+   
+ 
+    margin: 0;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+
+
+
+  #logo-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
+  
+  
+  #img-logo {
+    max-width: 50%;
+  
+  }
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #img-rss{
+    max-width: 60%; 
+    display: flex;
+    align-items: center;
+  }
+  
+  #content-center{
+    background: #cD96b6;
+    /*
+    fuerte: #E5097F
+    suave: #e92c91*/
+    
+    padding: 15px 15px 0px 15px;
+  
+    border-radius: 16px 16px 16px 16px;
+  -moz-border-radius: 16px 16px 16px 16px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  
+  border: solid 1px;
+  }
+  
+   
+  .row {
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  
+  .row:hover {
+    opacity: 0.9;
+    transition: 0.4s;
+    
+  }
+  
+  #name-rss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h3{
+    text-align: center;
+    margin: 0 auto; 
+    color: black;
+  }
+  
+  p {
+    text-align: center;
+    color: white;
+  }
