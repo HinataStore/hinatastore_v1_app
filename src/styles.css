@@ -18,7 +18,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    
     padding-left: 0 !important;
     padding-right: 0 !important;
     width: 100% !important;
@@ -26,8 +26,7 @@ html {
   
   
   #img-logo {
-    max-width: 50%;
-  
+    width: 60vw;
   }
   footer {
     background-color: black;
